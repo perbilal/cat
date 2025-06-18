@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Cat Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>😺 Random Cat Generator</h1>
+    <button onclick="getCat()">Show Me a Cat!</button>
+    <div class="cat-img">
+      <img id="catImage" src="" alt="Random Cat" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cat Generator 🐱</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>😺 Say Something with a Cat</h1>
+    
+    <input type="text" id="messageInput" placeholder="What should the cat say?" />
+    
+    <select id="tagSelect">
+      <option value="">-- Random Cat --</option>
+      <option value="cute">Cute</option>
+      <option value="funny">Funny</option>
+      <option value="sleepy">Sleepy</option>
+      <option value="angry">Angry</option>
+      <option value="gif">GIF Cat</option>
+    </select>
+    
+    <button onclick="getCat()">Generate Cat</button>
+
+    <div class="cat-img">
+      <div id="loading">Loading...</div>
+      <img id="catImage" src="" alt="Cat will appear here" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
